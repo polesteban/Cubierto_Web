@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <style>
+        *{ 
+            box-sizing: border-box;
+        }
+        .body {
+            font-family: 'Lato', sans-serif;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+        .row {
+            display: flex;
+        }
+        .column2 {
+            width: 100%;
+            height: auto;
+            background-color: #F5EEF5;
+            padding: 20px;
+        }
+        .column4 {
+            width: 50%;
+            height: auto;
+            background-color: #FAF5F3;
+            padding: 20px;
+        }
+        .column1 {
+            width: 50%;
+            background-color: #F2F9F8;
+            padding: 20px;
+        }
+        .column3 {
+            width: 25%;
+            background-color: #000000;
+            color: white;
+            padding: 50px;
+            font-size: 10px;
+        }
+        .estilos {
+            border-style: solid;
+            border-width: 1px;
+            border-color: black;
+        }
+        .column5 {
+            width: 100%;
+            background-color: #F5EEF5;
+            height: 90px;
+        }
+        .MedidaG {
+            height: 230px;
+        }
+        .MedidaP {
+            height: 180px;
+        }
+        .imagen {
+            object-fit: cover;
+            width: 50%;
+            margin-left: 90px;
+            margin-right: 10px;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+        .column7 {
+            width: 100%;
+            height: 70px;
+            color: white;
+            background-color: #000000;
+            padding-top: 50px;
+            padding-left: 30px;
+        }
+        @media only screen and (max-width: 600px) {
+            .column2 {
+                font-size: 10px;
+                float: left;
+            }
+            .column1 {
+                font-size: 10px;
+                float: left;
+            }
+            .column3 {
+                font-size: 10px;
+                float: left;
+            }
+            .column4 {
+                font-size: 10px;
+                float: left;
+            }
+            .column5 {
+                font-size: 10px;
+                float: left;
+            }
+            .column7 {
+                font-size: 10px;
+                float: left;
+            }
+        }
+    </style>
+</head>
+<body class="body">
+    <div class="row">
+        <div class="column2 estilos MedidaG">Moblie development <br> <br>
+            <a style="color: green; font-size: 30px;">Grow your bussines with mobile apps</a></div>
+    </div>
+    <div class="row">
+        <div class="column4 estilos MedidaG">Sleepiest <br> <br>
+            <a style="font-size: 30px; color: grey;">helps millions falls asleep every night</a> <br> <br>
+            branding,design,mobile,product</div>
+        <div class="column4 estilos MedidaG">
+            <div>
+                <img src="img_cubierto/section-1-m.png" class="imagen">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column1 estilos MedidaG"><img src="img_cubierto/section-2-m.png" class="imagen"></div>
+        <div class="column1 estilos MedidaG">uLesson <br> <br> <br>
+            <a style="font-size: 30px; color: gray;">Online platform for distance learning </a> <br> <br>
+            web,mobile,product</div>
+    </div>
+    <div class="row">
+        <div class="column1 estilos MedidaG">Genesis Vision <br> <br>
+            <a style="font-size: 30px; color: gray;">Private trust management and trading platform</a> <br> <br>    
+        branding, desing, experience, product</div>
+        <div class="column1 estilos MedidaG"><img src="img_cubierto/section-3-m.png" class="imagen"></div>
+    </div>
+    <div class="row">
+        <div class="column7 estilos">Have an idea? Tell us about it
+        </div>
+    </div>
+    <div class="row">
+        <div class="column3 estilos MedidaP">Product <br> Features <br> Security <br> Enterprise <br> Customer Stories </div>
+        <div class="column3 estilos MedidaP">Platform <br> Developer API <br> Partners <br> Atom <br> Electron </div>
+        <div class="column3 estilos MedidaP">Support <br> help <br> Community Forum <br> Learning Lab <br> Certifications</div>
+        <div class="column3 estilos MedidaP">Company <br> About <br> Blog <br> Careers <br> Press</div>
+    </div>
+</body>
+</html>
